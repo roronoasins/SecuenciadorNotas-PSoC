@@ -1,0 +1,71 @@
+--------------- Rebuild Started: 06/17/2019 18:35:57 Project: main.c, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+main.c: In function 'updateClock1':
+main.c:52:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+     sprintf(msg, "Frecuencia actual: %i\r\n", freq);
+     ^
+main.c:52:5: warning: incompatible implicit declaration of built-in function 'sprintf'
+main.c:52:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+main.c:54:18: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+     sprintf(msg, "");
+                  ^
+main.c: In function 'isr_rx_Interrupt_InterruptCallback':
+main.c:68:13: warning: incompatible implicit declaration of built-in function 'sprintf'
+             sprintf(msg, "Frecuencia actual: %i\r\n", (unsigned int)freq);
+             ^
+main.c:68:13: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+main.c:70:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:77:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:85:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:92:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:100:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:107:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:115:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:122:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:130:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:137:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:146:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:153:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:160:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:167:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:175:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:182:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:189:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+main.c:196:26: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+             sprintf(msg, "");
+                          ^
+--------------- Rebuild Succeeded: 06/17/2019 18:35:58 ---------------

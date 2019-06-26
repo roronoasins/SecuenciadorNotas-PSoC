@@ -1,0 +1,18 @@
+# Seq
+# 2019-06-26 13:17:17Z
+
+# IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 0
+# IO_1@[IOP=(1)][IoId=(1)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 1
+# IO_3@[IOP=(1)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 3
+set_io "Pin_3(0)" iocell 1 5
+set_io "Pin_Led(0)" iocell 0 2
+set_io "Vout_1(0)" iocell 0 1
+set_io "Entrada_Potenciometro(0)" iocell 1 6
+set_io "Rx_1(0)" iocell 12 6
+set_io "Tx_1(0)" iocell 12 7
+set_location "\WaveDAC8_1:VDAC8:viDAC8\" vidaccell -1 -1 2
+set_location "\Opamp_1:ABuf\" abufcell -1 -1 0
+set_location "\ADC_LongitudNota:ADC_SAR\" sarcell -1 -1 1
